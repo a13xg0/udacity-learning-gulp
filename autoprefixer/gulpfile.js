@@ -2,6 +2,10 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 
+gulp.task('default', function() {
+	gulp.watch('./scss/**/*.scss', ['style']);
+});
+
 gulp.task('style', function() {
 	gulp.src('./scss/**/*.scss')
 	.pipe(sass().on('error', sass.logError))

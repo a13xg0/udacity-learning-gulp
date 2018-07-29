@@ -1,5 +1,6 @@
 div.main {
-  max-wodth: 700px; }
+  max-wodth: 700px;
+  color: orange; }
   div.main p {
     text-decoration: underline; }
   div.main .filtered {
