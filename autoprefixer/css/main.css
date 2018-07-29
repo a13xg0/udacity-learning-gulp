@@ -1,8 +1,0 @@
-div.main {
-  max-wodth: 700px;
-  color: orange; }
-  div.main p {
-    text-decoration: underline; }
-  div.main .filtered {
-    -webkit-filter: invert(1);
-            filter: invert(1); }
