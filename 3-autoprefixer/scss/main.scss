@@ -1,0 +1,12 @@
+div.main {
+  max-wodth: 700px;
+  color: orange;
+  
+  p {
+	text-decoration: underline;
+  }
+  
+  .filtered {
+   	filter: invert(1);
+  }
+} 
