@@ -3,5 +3,6 @@
 */
 function helloThere() {
 	var helloThere = 'Hello there!';
+	return helloThere;
 }
 

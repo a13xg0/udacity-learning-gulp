@@ -1,0 +1,12 @@
+div.main {
+  max-width: 700px;
+  color: aqua;
+  
+  p {
+	text-decoration: underline;
+  }
+  
+  .filtered {
+   	filter: invert(1);
+  }
+} 
